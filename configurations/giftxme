@@ -1,0 +1,11 @@
+<VirtualHost 10.178.22.250:80>
+WSGIScriptAlias / /home/ubuntu/django-projects/giftxme/giftxme/wsgi.py
+ServerName 54.215.8.20
+Alias /static /home/ubuntu/django-projects/giftxme/static/
+
+<Directory /home/ubuntu/django-projects/giftxme/>
+Order allow,deny
+Allow from all
+</Directory>
+
+</VirtualHost>
