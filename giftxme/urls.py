@@ -4,7 +4,10 @@ from django.conf.urls import patterns, include, url
 from django.contrib import admin
 admin.autodiscover()
 
+from comingsoon import views
+
 urlpatterns = patterns('',
+    url(r'', views.index),
     # Examples:
     # url(r'^$', 'giftxme.views.home', name='home'),
     # url(r'^giftxme/', include('giftxme.foo.urls')),
