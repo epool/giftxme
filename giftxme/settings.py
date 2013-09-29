@@ -128,7 +128,11 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
+<<<<<<< HEAD
     'giftexchange',
+=======
+    'comingsoon',
+>>>>>>> 259a9ae9d873605f9a6f6c79ae973319d0d67dc7
 )
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
